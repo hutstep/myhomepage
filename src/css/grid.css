@@ -1,0 +1,138 @@
+/* ----------------------------------------------
+   Basic setup
+---------------------------------------------- */
+
+*[class*="col-"] {
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.content-wrapper {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* ----------------------------------------------
+   Screen sizes >= 1200px
+---------------------------------------------- */
+
+.container {
+  box-sizing: border-box;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+/* ----- Navigation - links ------ */
+
+.col-nav {
+  width: 33.33%;
+}
+
+
+/* ----- Portfolio section - projects ------ */
+
+.col-project {
+  width: 33.33%;
+}
+
+
+/*.col-project:last-child {
+  margin-left: 33.33%;
+}*/
+
+
+/* ----- Address section - split in half ------ */
+
+.col-address {
+  width: 35%;
+}
+
+.col-address:last-child {
+  width: 31%;
+  margin-left: 34%;
+}
+
+
+/* ----- Address section - links to profiles ------ */
+
+.col-profile {
+  width: 25%;
+}
+
+
+/* ----------------------------------------------
+   Screen sizes from 992px to 1199px
+---------------------------------------------- */
+
+@media only screen and (max-width: 1199px) {
+  /* ----- Address section - split in half ------ */
+  .col-address {
+    width: 35%;
+  }
+  .col-address:last-child {
+    width: 35%;
+    margin-left: 30%;
+  }
+}
+
+
+/* ----------------------------------------------
+   Screen sizes from 768px to 991px
+---------------------------------------------- */
+
+@media only screen and (max-width: 991px) {
+  /* ----- Portfolio section - projects ------ */
+  .col-project {
+    width: 50%;
+  }
+  /* ----- Address section - split in half ------ */
+  .col-address {
+    width: 35%;
+  }
+  .col-address:last-child {
+    width: 40%;
+    margin-left: 25%;
+  }
+}
+
+
+/* ----------------------------------------------
+   Screen sizes from 576px to 767px
+---------------------------------------------- */
+
+@media only screen and (max-width: 767px) {
+  /* ----- Address section - split in half ------ */
+  .col-address {
+    width: 50%;
+  }
+  .col-address:last-child {
+    width: 42%;
+    margin-left: 8%;
+  }
+}
+
+
+/* ----------------------------------------------
+   Screen sizes from XXXpx to 575px
+---------------------------------------------- */
+
+@media only screen and (max-width: 575px) {
+  /* ----- Portfolio section - projects ------ */
+  .col-project {
+    width: 100%;
+  }
+  /* ----- Address section - split in half ------ */
+  .col-address {
+    width: 100%;
+  }
+  .col-address:last-child {
+    width: 100%;
+    margin-left: 0;
+  }
+}
