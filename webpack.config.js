@@ -12,7 +12,7 @@ const config = {
   output: {
     path: path.join(__dirname, 'docs', 'assets'),
     filename: '[name].bundle.js',
-    publicPath: 'https://hutstep.github.io/myhomepage/assets/'
+    publicPath: '/assets/'
   },
   plugins: [],
   module: {
