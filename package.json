@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "devbuild": "rm -rf ./docs/ && webpack && cp -r ./src/img/ ./docs/",
+    "devbuild": "rm -rf ./docs/img/ ./docs/assets/ ./docs/index.html && webpack && cp -r ./src/img/ ./docs/",
     "devserver": "chromium 'http://localhost:8080' && webpack-dev-server --host 0.0.0.0",
-    "build": "rm -rf ./docs/ && NODE_ENV=production webpack && cp -r ./src/img/ ./docs/",
+    "build": "rm -rf ./docs/img/ ./docs/assets/ ./docs/index.html && NODE_ENV=production webpack && cp -r ./src/img/ ./docs/",
     "buildserver": "npm run build && cd docs && chromium http://localhost:8000 && php -S 0.0.0.0:8000"
   },
   "author": "Stephan Huettner",
