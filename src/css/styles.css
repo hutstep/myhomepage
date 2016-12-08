@@ -69,6 +69,15 @@ h2::after {
 
 h3 {
   font-size: 2.2rem;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 1.7rem;
+  line-height: 1.35;
+  margin: 1rem 0;
+  font-weight: 400;
+  text-align: left;
 }
 
 p {
@@ -349,6 +358,8 @@ nav a:active {
 
 .text-box {
   padding: 1.8rem 2rem 0;
+  height: 52.7rem;
+  position: relative;
 }
 
 .text-box p {
@@ -364,9 +375,16 @@ nav a:active {
 }
 
 .text-box p:last-of-type {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   text-align: center;
-  margin-bottom: 0.2rem;
   font-weight: normal;
+}
+
+.text-box a:nth-of-type(2) {
+  margin-left: 3rem;
 }
 
 .text-box a:link,
@@ -376,15 +394,21 @@ nav a:active {
   transition: 0.2s;
 }
 
+.text-box a:last-of-type:focus,
+.text-box a:last-of-type:hover,
+.text-box a:last-of-type:active {
+  color: #43A047;
+}
+
 .text-box a[href*="codepen"]:focus,
 .text-box a[href*="codepen"]:hover,
 .text-box a[href*="codepen"]:active {
   color: #76daff;
 }
 
-.text-box a[href*="github"]:focus,
-.text-box a[href*="github"]:hover,
-.text-box a[href*="github"]:active {
+.text-box a[href*="github.com"]:focus,
+.text-box a[href*="github.com"]:hover,
+.text-box a[href*="github.com"]:active {
   color: #4078c0;
 }
 
@@ -469,5 +493,3 @@ footer {
   font-size: 1.3rem;
   font-weight: 300;
 }
-
-

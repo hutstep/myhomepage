@@ -11,7 +11,7 @@
     "buildserver": "npm run build && cd docs && chromium http://localhost:8000 && php -S 0.0.0.0:8000"
   },
   "author": "Stephan Huettner",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^6.5.3",
     "babel-core": "^6.18.2",
