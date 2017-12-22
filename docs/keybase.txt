@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/hutstep
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.stephanhuettner.de
+  * I am hutstep (https://keybase.io/hutstep) on keybase.
+  * I have a public key ASCzokh8IRJvSXnBDZBM25xQBb6iycQxdbJpnowzS7_z6go
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b3a2487c21126f4979c10d904cdb9c5005bea2c9c43175b2699e8c334bbff3ea0a",
+      "host": "keybase.io",
+      "kid": "0120b3a2487c21126f4979c10d904cdb9c5005bea2c9c43175b2699e8c334bbff3ea0a",
+      "uid": "c0d7e638d39cda05d52a2a42b89e1919",
+      "username": "hutstep"
+    },
+    "merkle_root": {
+      "ctime": 1513935355,
+      "hash": "ef248ae1ed477d0cf03dfeebcae598150e2822ea1e7d0d9e78604e202a05471aa25bc971f1d6470f572ae31fa5ea340cb3862ab49ecaef12dba2b16627466312",
+      "hash_meta": "88114eeacdca4fea310ac18b67acad5e3bf5d7fa81f0db52a830edb1d0156506",
+      "seqno": 1848992
+    },
+    "service": {
+      "hostname": "www.stephanhuettner.de",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.38"
+  },
+  "ctime": 1513935400,
+  "expire_in": 504576000,
+  "prev": "0c80933712b5a969f96783b5d3576e397e766bd9e7d72075694fed3a1d2e6ad6",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgs6JIfCESb0l5wQ2QTNucUAW+osnEMXWyaZ6MM0u/8+oKp3BheWxvYWTFA017ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYjNhMjQ4N2MyMTEyNmY0OTc5YzEwZDkwNGNkYjljNTAwNWJlYTJjOWM0MzE3NWIyNjk5ZThjMzM0YmJmZjNlYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjNhMjQ4N2MyMTEyNmY0OTc5YzEwZDkwNGNkYjljNTAwNWJlYTJjOWM0MzE3NWIyNjk5ZThjMzM0YmJmZjNlYTBhIiwidWlkIjoiYzBkN2U2MzhkMzljZGEwNWQ1MmEyYTQyYjg5ZTE5MTkiLCJ1c2VybmFtZSI6Imh1dHN0ZXAifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTM5MzUzNTUsImhhc2giOiJlZjI0OGFlMWVkNDc3ZDBjZjAzZGZlZWJjYWU1OTgxNTBlMjgyMmVhMWU3ZDBkOWU3ODYwNGUyMDJhMDU0NzFhYTI1YmM5NzFmMWQ2NDcwZjU3MmFlMzFmYTVlYTM0MGNiMzg2MmFiNDllY2FlZjEyZGJhMmIxNjYyNzQ2NjMxMiIsImhhc2hfbWV0YSI6Ijg4MTE0ZWVhY2RjYTRmZWEzMTBhYzE4YjY3YWNhZDVlM2JmNWQ3ZmE4MWYwZGI1MmE4MzBlZGIxZDAxNTY1MDYiLCJzZXFubyI6MTg0ODk5Mn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJ3d3cuc3RlcGhhbmh1ZXR0bmVyLmRlIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzgifSwiY3RpbWUiOjE1MTM5MzU0MDAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiMGM4MDkzMzcxMmI1YTk2OWY5Njc4M2I1ZDM1NzZlMzk3ZTc2NmJkOWU3ZDcyMDc1Njk0ZmVkM2ExZDJlNmFkNiIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQGqRLkkGU/t4a+M0tKXSUzU8iv8CtAEcsvILMhW8Hq9CvHO5yUX1mbyAvDUOK+xJ8DXOOJZKiUayDZzXuKuwLQqoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCDWpVmDyo7uUlp8TaxhRAA9qatLULP5NQzW5EtV/8TUOKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hutstep
+
+==================================================================
